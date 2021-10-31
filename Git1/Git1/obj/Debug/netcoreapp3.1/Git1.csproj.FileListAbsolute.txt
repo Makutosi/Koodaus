@@ -1,0 +1,14 @@
+C:\Users\eriko\TEST\Git1\Git1\bin\Debug\netcoreapp3.1\Git1.exe
+C:\Users\eriko\TEST\Git1\Git1\bin\Debug\netcoreapp3.1\Git1.deps.json
+C:\Users\eriko\TEST\Git1\Git1\bin\Debug\netcoreapp3.1\Git1.runtimeconfig.json
+C:\Users\eriko\TEST\Git1\Git1\bin\Debug\netcoreapp3.1\Git1.runtimeconfig.dev.json
+C:\Users\eriko\TEST\Git1\Git1\bin\Debug\netcoreapp3.1\Git1.dll
+C:\Users\eriko\TEST\Git1\Git1\bin\Debug\netcoreapp3.1\Git1.pdb
+C:\Users\eriko\TEST\Git1\Git1\obj\Debug\netcoreapp3.1\Git1.csproj.AssemblyReference.cache
+C:\Users\eriko\TEST\Git1\Git1\obj\Debug\netcoreapp3.1\Git1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eriko\TEST\Git1\Git1\obj\Debug\netcoreapp3.1\Git1.AssemblyInfoInputs.cache
+C:\Users\eriko\TEST\Git1\Git1\obj\Debug\netcoreapp3.1\Git1.AssemblyInfo.cs
+C:\Users\eriko\TEST\Git1\Git1\obj\Debug\netcoreapp3.1\Git1.csproj.CoreCompileInputs.cache
+C:\Users\eriko\TEST\Git1\Git1\obj\Debug\netcoreapp3.1\Git1.dll
+C:\Users\eriko\TEST\Git1\Git1\obj\Debug\netcoreapp3.1\Git1.pdb
+C:\Users\eriko\TEST\Git1\Git1\obj\Debug\netcoreapp3.1\Git1.genruntimeconfig.cache
