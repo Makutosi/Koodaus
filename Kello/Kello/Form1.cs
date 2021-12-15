@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,11 +11,16 @@ using System.Windows.Forms;
 
 namespace Kello
 {
-    public partial class Form1 : Form
+    public partial class Kello : Form
     {
-        public Form1()
+        public Kello()
         {
             InitializeComponent();
+        }
+
+        private void StartBT_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
