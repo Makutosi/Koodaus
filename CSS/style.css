@@ -1,3 +1,9 @@
 h1 {
   color: pink;
 }
+
+li{
+  display: inline-block;
+  width: 250px; /*blockモデルの幅が２５０ｐｘ*/
+  background-color: pink;
+}
