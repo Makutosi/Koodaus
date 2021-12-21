@@ -7,3 +7,21 @@ li{
   width: 250px; /*blockモデルの幅が２５０ｐｘ*/
   background-color: pink;
 }
+
+/* 親要素に*/
+.container{
+  border: 1px solid blue;
+  display: flex; /*containerの中の子要素が横並びになる*/
+  flex-direction: row; /* 初期値*/
+  /*flex-direction: row-reverse; /* 逆並び*/
+  /*flex-direction: column; /*要素が縦並び */
+  /*flex-direction: column-reverse;/* 逆縦並び */
+}
+
+/* 子要素に */
+.item{
+  background-color: green;
+  color: #fff; /*字が見えるように　白 */
+  margin: 10px; /*各要素がくっつかないように */
+  padding: 10px;
+}
