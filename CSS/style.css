@@ -11,7 +11,7 @@ li{
 
 /* 親要素に*/
 .container{
-  border: 1px solid blue;
+  border: 2px dotted red;
   display: flex; /*containerの中の子要素が横並びになる*/
   flex-direction: row; /* 初期値*/
   /*flex-direction: row-reverse; /* 逆並び*/
