@@ -22,6 +22,8 @@ li{
 /* 子要素に */
 .item{
   background-color: green;
+  width: 100px;
+  height: 100px;
   color: #fff; /*字が見えるように　白 */
   margin: 10px; /*各要素がくっつかないように */
   padding: 10px;
