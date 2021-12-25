@@ -28,3 +28,26 @@ li{
   margin: 10px; /*各要素がくっつかないように */
   padding: 10px;
 }
+
+.container2{
+  border: 2px solid blue;
+  display: flex;
+}
+
+.box1{
+  background-color: red;
+  flex-grow: 1;
+}
+
+.box2{
+  background-color: pink;
+  flex-grow: 1;
+}
+.box3{
+  background-color: green;
+  flex-grow: 1;
+}
+.box4{
+  background-color: violet;
+  flex-grow: 1;
+}
