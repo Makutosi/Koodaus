@@ -1,3 +1,4 @@
+/* github kokeilu */
 h1 {
   background-color: red;
   color: #fff;
@@ -50,4 +51,45 @@ li{
 .box4{
   background-color: violet;
   flex-grow: 1;
+}
+
+/* #03_4 子要素と/ 26.12.2021 */
+.box1{
+  width: 180px;
+  height: 180px;
+  background-color: red;
+}
+.box2{
+  width: 180px;
+  height: 180px;
+  background-color: blue;
+  /* kokeilu 2/ 親要素が(Box2)Relative*/
+  position: relative;
+}
+.box3{
+  width: 180px;
+  height: 180px;
+  background-color: yellow;
+}
+.box4{
+  width: 180px;
+  height: 180px;
+  background-color: green;
+}
+/*box2の中に,box5が入っている */
+.box5{
+  width: 25px;
+  height: 60px;
+  background-color: aquamarine;
+  /* kokeilu 1 "Absolute"  top & left*/
+  /* 親要素(Box2)がstaticならば、ページ上から配置される*/
+/*  position: absolute;
+  top: 30px;
+  left: 25px;*/
+
+
+  /* kokeilu 3(アイコン) 親要素がRelative、子要素がAbsolute */
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }
