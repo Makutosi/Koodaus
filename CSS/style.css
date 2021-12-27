@@ -93,3 +93,8 @@ li{
   top: -5px;
   right: -5px;
 }
+
+.sample{
+  background-color: red;
+  color: white;
+}
