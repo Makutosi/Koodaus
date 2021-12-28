@@ -1,0 +1,23 @@
+/* #05/ 28.12.2021 */
+.container{
+  width: 640px;
+  height: 800px;
+  border: 1px solid red;
+  background-color: beige;
+  margin-top: 250px; /* スクロール出来るようにトップに余白*/
+}
+.item{
+  width: 100%;
+  background-color: pink;
+  /* sticky */
+  position: sticky;
+  top: 0; /* 座標が必要、上にピタッとくっつく*/
+}
+.item2{
+  width: 100%;
+  background-color: aquamarine;
+  /* sticky */
+  position: sticky;
+  top: 0; /* 座標が必要、上にピタッとくっつく*/
+  margin-top: 250px;　/* item1との間を離す*/
+}
