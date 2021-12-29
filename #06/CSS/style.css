@@ -1,0 +1,74 @@
+/* #06 Box-Shadow/ 29.12.2021 */
+.box{
+  width: 180px;
+  height: 180px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 5px 5px;　/* 右、下*/
+  /* -5 -5  反対側に影*/
+}
+.box2{
+  width: 180px;
+  height: 180px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 5px 5px 5px; /* 右、下、ぼかし*/
+}
+.box3{
+  width: 180px;
+  height: 180px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 5px 5px 5px 5px; /* 影の広がり*/
+}
+.box4{
+  width: 180px;
+  height: 180px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 5px 5px 5px 5px #4d4d4d; /* グレーの影 */
+}
+.box5{
+  width: 180px;
+  height: 180px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 15px 15px skyblue; /* おしゃれな重なり*/
+}
+.box6{
+  width: 180px;
+  height: 180px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 0px 0px 10px 5px gray; /* 影の広がり*/
+}
+.box7{
+  width: 180px;
+  height: 180px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 5px 5px 5px inset; /* inset うちがわに影*/
+}
+.box8{
+  width: 180px;
+  height:180px;
+  background-color: beige;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 0px 5px 5px skyblue; /*下に青い影 */
+}
