@@ -1,0 +1,69 @@
+/* #02CSS Transform/ 30.12.2021 */
+body{
+  padding: 120px; /* ゆとり 内側の余白　*/
+}
+/*  1.transition:background-color 1s  背景色が変化 */
+/*.test{
+  width: 80px;
+  height: 80px;
+  background-color: crimson;
+  transition: background-color 1s;
+}
+.test:hover{
+  background-color: darkmagenta;
+}*/
+
+/***********************************/
+/* 2. transsition:transform 1s  移動*/
+/* transform: translateX(60px);  X軸方向横に60px移動 */
+/* translateY()*/
+/* translate(60px, 30px)  斜め移動*/
+/* マイナス　逆方向*/
+/*.test{
+  width: 80px;
+  height: 80px;
+  background-color: crimson;
+  transition:transform 1s;
+}
+.test:hover{
+  transform: translateX(60px);
+}*/
+
+/*************************************/
+/* 3. transform:scale 伸縮*/
+/* transform: scale(2, 3);
+x軸囲方向に２倍、y軸方向に３倍大きくなる*/
+/*.test{
+  width: 80px;
+  height: 80px;
+  background-color: crimson;
+  transition:
+}
+.test:hover{
+  transform: scale(0.8, 0.7);
+}*/
+
+/****************************************/
+/* 4. transform:rotate(度数)　回転*/
+/*.test{
+  width: 80px;
+  height: 80px;
+  background-color: crimson;
+  transition: transform 1s;
+}
+.test:hover{
+  transform: rotate(270deg);
+}*/
+
+/*****************************************/
+/* transform: translate() rotate(); 右下へ回転*/
+.test{
+  width: 80px;
+  height: 80px;
+/*  background-color: crimson;*/
+  transition: transform 2s;
+}
+.test:hover{
+  transform: translate(60px, 30px) rotate(360deg);
+  /*transform: scale(2, 3);*/
+}
