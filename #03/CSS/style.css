@@ -1,0 +1,32 @@
+/* #03CSS / 31.12.2021 */
+/* transform: scale(何倍、何倍);*/
+/*起点が中心になって、左右均等に大きくなる*/
+.test{
+  width: 160px;
+  height: 160px;
+  margin: 60px;
+  background-color: brown;
+  transition: transform 2s; /* 変化の前 */
+}
+
+.test:hover{
+  transform: scale(1.5, 1.5); /* 2sかけて、サイズが 1.5倍になる*/
+}
+/***********************************************/
+/* transform-origin: top left; topと leftを起点として大きくなる
+/* スケールの大きくなる方向を変えられる*/
+.test1{
+  width: 160px;
+  height: 160px;
+  margin: 60px;
+  /*background-image: url(img src="img/0001.jpg"); ???*/
+　transition: transform 3s; /* */
+  transform-origin: top left;
+}
+
+.test1:hover{
+  transform: scale(1.5, 1.5); /* 2sかけて、サイズが 1.5倍になる*/
+}
+.hirune{
+  margin: 160px;
+}
